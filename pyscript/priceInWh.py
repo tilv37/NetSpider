@@ -9,8 +9,8 @@ import pymysql.cursors
 import time
 
 proxies = {
-    "http": "10.25.192.8:8080",
-    "https": "10.25.192.8:8080"
+    "http": "127.0.0.1:8080",
+    "https": "127.0.0.1:8080",
 }
 header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36'
